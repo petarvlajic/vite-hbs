@@ -1,0 +1,21 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "filesToPimcore": "mkdir public-static && cp -r dist/scripts.js ./public-static/scripts.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@rollup/pluginutils": "^5.0.2",
+    "sass": "^1.60.0",
+    "vite": "^4.2.0",
+    "vite-plugin-handlebars": "^1.6.0"
+  },
+  "dependencies": {
+    "@vituum/vite-plugin-handlebars": "^0.1.9"
+  }
+}
